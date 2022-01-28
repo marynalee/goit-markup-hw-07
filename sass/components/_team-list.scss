@@ -1,15 +1,11 @@
-.team-section {
-  background-color: var(--section-bg-color);
-}
-
-.team-section__list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.team-section__item {
+.team__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;

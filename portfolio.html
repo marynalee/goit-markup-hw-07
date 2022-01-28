@@ -21,29 +21,29 @@
         <div class="container page-header__container">
             <a class="logo link page-header__logo" href="index.html">Web<span
                     class="page-header__logo--primary">Studio</span></a>
-            <nav class="header-nav">
-                <ul class="list page-header__list">
-                    <li class="page-header__item">
-                        <a class="link page-header__link" href="./index.html">Студия</a>
+            <nav class="main-nav">
+                <ul class="list main-nav__list">
+                    <li class="main-nav__item">
+                        <a class="link main-nav__link" href="./index.html">Студия</a>
                     </li>
-                    <li class="page-header__item">
-                        <a class="link page-header__link current" href="./portfolio.html">Портфолио</a>
+                    <li class="main-nav__item">
+                        <a class="link main-nav__link current" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="page-header__item">
-                        <a class="link page-header__link" href="">Контакты</a>
+                    <li class="main-nav__item">
+                        <a class="link main-nav__link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="list page-header__cont">
-                <li class="page-header__cont-item">
-                    <a class="link page-header__cont-link" href="mailto:info@devstudio.com">
-                        <svg class="page-header__cont-icon" width="16" height="12">
+            <ul class="list contacts page-header__contacts">
+                <li class="contacts__item">
+                    <a class="link contacts__link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="page-header__cont-item">
-                    <a class="link page-header__cont-link" href="tel:+380961111111">
-                        <svg class="page-header__cont-icon" width="10" height="16">
+                <li class="contacts__item">
+                    <a class="link contacts__link" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-icon-mobile"></use>
                         </svg>+38 096 111 11 11</a>
                 </li>
@@ -56,7 +56,7 @@
         <section class="section">
             <div class="container">
                 <h1 class="visually-hidden">Портфолио</h1>
-                <ul class="list filters">
+                <ul class="list filters portfolio__filters">
                     <li class="filters__item"><button class="filters__btn filters__btn--current" type="button">Все</button></li>
                     <li class="filters__item"><button class="filters__btn" type="button">Веб-сайты</button></li>
                     <li class="filters__item"><button class="filters__btn" type="button">Приложения</button></li>
@@ -188,26 +188,26 @@
     </main>
     <!-- Подвал сайта -->
     <footer class="page-footer">
-        <div class="container page-footer__container">
-            <div class="page-footer__container-item">
+        <div class="container page-footer__list">
+            <div class="page-footer__item">
                 <a class="logo link page-footer__logo" href="index.html">Web<span
                         class="page-footer__logo--secondary">Studio</span></a>
                 <address>
-                    <ul class="list page-footer__list">
-                        <li class="page-footer__list-item">
-                            <a class="link page-footer__link" href="https://goo.gl/maps/MTsHm1Lb1NzsEyX66" target="_blank"
+                    <ul class="list address__list">
+                        <li class="address__item">
+                            <a class="link address__link" href="https://goo.gl/maps/MTsHm1Lb1NzsEyX66" target="_blank"
                                 rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
-                        <li class="page-footer__list-item">
-                            <a class="link page-footer__link" href="mailto:info@example.com">info@example.com</a>
+                        <li class="address__item">
+                            <a class="link address__link" href="mailto:info@example.com">info@example.com</a>
                         </li>
-                        <li class="page-footer__list-item">
-                            <a class="link page-footer__link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <li class="address__item">
+                            <a class="link address__link" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
-            <div class="page-footer__container-item">
+            <div class="page-footer__item">
                 <h3 class="second-title page-footer__title">Присоединяйтесь</h3>
                 <ul class="list social-list">
                     <li class="social-list__item">
@@ -244,7 +244,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="page-footer__container-item">
+            <div class="page-footer__item">
                 <h3 class="second-title page-footer__title">Подпишитесь на рассылку</h3>
                 <form class="form-subscribe" action="#">
                     <input class="form-subscribe__input" type="email" name="user-email-subscribe" placeholder="E-mail">

@@ -1,4 +1,4 @@
-.clients-section {
+.clients {
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
   }
 }
 
-.clients-section__link {
+.clients__link {
   height: 92px;
   border: 1px solid var(--clients-border-color);
   border-radius: 4px;
