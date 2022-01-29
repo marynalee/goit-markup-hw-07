@@ -1,4 +1,4 @@
-.hero-section {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   justify-content: center;
@@ -16,11 +16,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero-section__heading {
-  max-width: 700px;
-  margin-bottom: 30px;
-  margin-right: auto;
-  margin-left: auto;
+  &__heading {
+    max-width: 700px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

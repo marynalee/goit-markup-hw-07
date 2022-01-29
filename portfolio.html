@@ -21,20 +21,20 @@
         <div class="container page-header__container">
             <a class="logo link page-header__logo" href="index.html">Web<span
                     class="page-header__logo--primary">Studio</span></a>
-            <nav class="main-nav">
-                <ul class="list main-nav__list">
-                    <li class="main-nav__item">
-                        <a class="link main-nav__link" href="./index.html">Студия</a>
+            <nav>
+                <ul class="list page-header__list">
+                    <li class="page-header__item">
+                        <a class="link page-header__link" href="./index.html">Студия</a>
                     </li>
-                    <li class="main-nav__item">
-                        <a class="link main-nav__link current" href="./portfolio.html">Портфолио</a>
+                    <li class="page-header__item">
+                        <a class="link page-header__link current" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="main-nav__item">
-                        <a class="link main-nav__link" href="">Контакты</a>
+                    <li class="page-header__item">
+                        <a class="link page-header__link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="list contacts page-header__contacts">
+            <ul class="list contacts">
                 <li class="contacts__item">
                     <a class="link contacts__link" href="mailto:info@devstudio.com">
                         <svg class="contacts__icon" width="16" height="12">
@@ -53,18 +53,18 @@
     <!-- Main content -->
     <main >
     <!-- Portfolio setion -->
-        <section class="section">
+        <section class="section portfolio">
             <div class="container">
                 <h1 class="visually-hidden">Портфолио</h1>
-                <ul class="list filters portfolio__filters">
-                    <li class="filters__item"><button class="filters__btn filters__btn--current" type="button">Все</button></li>
-                    <li class="filters__item"><button class="filters__btn" type="button">Веб-сайты</button></li>
-                    <li class="filters__item"><button class="filters__btn" type="button">Приложения</button></li>
-                    <li class="filters__item"><button class="filters__btn" type="button">Дизайн</button></li>
-                    <li class="filters__item"><button class="filters__btn" type="button">Маркетинг</button></li>
+                <ul class="list portfolio__filters">
+                    <li class="portfolio__filters-item"><button class="portfolio__filters-btn portfolio__filters-btn--current" type="button">Все</button></li>
+                    <li class="portfolio__filters-item"><button class="portfolio__filters-btn" type="button">Веб-сайты</button></li>
+                    <li class="portfolio__filters-item"><button class="portfolio__filters-btn" type="button">Приложения</button></li>
+                    <li class="portfolio__filters-item"><button class="portfolio__filters-btn" type="button">Дизайн</button></li>
+                    <li class="portfolio__filters-item"><button class="portfolio__filters-btn" type="button">Маркетинг</button></li>
                 </ul>
-                <ul class="list portfolio">
-                    <li class="portfolio__item">
+                <ul class="list card-set portfolio__list">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-1.jpg" alt="Фото компьютера с открытым сайтом" width="370" height="294">
@@ -78,7 +78,7 @@
                         </a>
 
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-2.jpg" alt="Два баскетболиста с мячом" width="370" height="294">
@@ -91,7 +91,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-3.jpg" alt="Логотип ресторана Seafood" width="370" height="294">
@@ -104,7 +104,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-4.jpg" alt="Черные блютуз наушники" width="370" height="294">
@@ -117,7 +117,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-5.jpg" alt="Белая и крафтовая коробки" width="370" height="294">
@@ -130,7 +130,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-6.jpg" alt="Монитор с главной страницей сайта" width="370" height="294">
@@ -143,7 +143,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-7.jpg" alt="Пример дизайна страниц журнала" width="370" height="294">
@@ -156,7 +156,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-8.jpg" alt="Логотип компании на ярлычке" width="370" height="294">
@@ -169,7 +169,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="card-set-item portfolio__item">
                         <a class="link portfolio__item-link" href="" target="_blank" rel="noreferrer noopener">
                             <div class="portfolio__overlay">
                             <img src="./images/portfolio-9.jpg" alt="Человек работает за ноутбуком" width="370" height="294">
@@ -208,7 +208,7 @@
                 </address>
             </div>
             <div class="page-footer__item">
-                <h3 class="second-title page-footer__title">Присоединяйтесь</h3>
+                <h3 class="title-item page-footer__title">Присоединяйтесь</h3>
                 <ul class="list social-list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link page-footer__social-link" target="_blank"
@@ -245,10 +245,10 @@
                 </ul>
             </div>
             <div class="page-footer__item">
-                <h3 class="second-title page-footer__title">Подпишитесь на рассылку</h3>
-                <form class="form-subscribe" action="#">
-                    <input class="form-subscribe__input" type="email" name="user-email-subscribe" placeholder="E-mail">
-                    <button class="btn form-subscribe__btn" type="submit">Подписаться</button>
+                <h3 class="title-item page-footer__title">Подпишитесь на рассылку</h3>
+                <form class="page-footer__form" action="#">
+                    <input class="page-footer__input" type="email" name="user-email-subscribe" placeholder="E-mail">
+                    <button class="btn page-footer__btn" type="submit">Подписаться</button>
                 </form>
             </div>
         </div>

@@ -1,6 +1,7 @@
 @import './utils/variables';
 @import './base/reset';
 @import './base/common';
+@import './base/card-set';
 @import './utils/hidden';
 
 //COMPONENTS
@@ -11,19 +12,11 @@
 @import './components/container';
 @import './components/section';
 @import './components/logo';
-@import './components/main-nav';
-@import './components/contacts';
 @import './components/main-heading';
-@import './components/title';
-@import './components/second-title';
-@import './components/directions';
-@import './components/team-list';
+@import './components/title-item';
 @import './components/social-list';
 @import './components/address-list';
 @import './components/btn';
-@import './components/subscribe';
-@import './components/filters';
-@import './components/portfolio-grid';
 
 //LAYOUT
 
